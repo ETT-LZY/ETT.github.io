@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.TT轴承 - 精密制造，品质保证</title>
+    <!-- 引入CSS样式 -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 引入Font Awesome图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">E.TT轴承</a>
+            <!-- 桌面端导航 -->
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#products">产品系列</a></li>
+                <li><a href="#advantages">技术优势</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+            <!-- 移动端菜单按钮 -->
+            <button class="menu-btn" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- 移动端导航菜单 -->
+        <ul class="mobile-menu" id="mobileMenu">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#products">产品系列</a></li>
+            <li><a href="#advantages">技术优势</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页Hero区 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>E.TT轴承<br><span class="highlight">精密制造，驱动未来</span></h1>
+                <p class="subtitle">专注高品质轴承研发与生产20年</p>
+                <p>我们致力于为工业领域提供高精度、长寿命的轴承解决方案，产品广泛应用于机械制造、汽车工业、航空航天等领域，以卓越品质赢得全球客户信赖。</p>
+                <a href="#products" class="btn">查看产品系列</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://picsum.photos/400/400?random=10" alt="精密轴承产品" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于E.TT</h2>
+            <div class="about-content">
+                <p>E.TT轴承成立于2003年，是一家集研发、生产、销售为一体的专业轴承制造企业。公司拥有现代化生产基地。</p>
+                <p>我们坚持"技术创新、品质至上"的理念，引进德国先进生产设备和检测仪器，建立了完善的质量控制体系，通过多项国际认证。</p>
+                <p>核心优势：</p>
+                <ul class="hobby-list">
+                    <li><i class="fas fa-certificate"></i> 全系列产品通过国际质量认证</li>
+                    <li><i class="fas fa-cogs"></i> 拥有20项核心技术专利</li>
+                    <li><i class="fas fa-globe"></i> 产品出口至全球50多个国家和地区</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示 -->
+    <section id="products" class="projects">
+        <div class="container">
+            <h2 class="section-title">产品系列</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">全部产品</button>
+                <button class="filter-btn" data-filter="ball">球类轴承</button>
+                <button class="filter-btn" data-filter="roller">滚子轴承</button>
+                <button class="filter-btn" data-filter="special">特种轴承</button>
+            </div>
+            <div class="project-grid">
+                <!-- 产品1 -->
+                <div class="project-card" data-category="ball">
+                    <img src="https://picsum.photos/600/400?random=20" alt="深沟球轴承" class="project-img">
+                    <div class="project-info">
+                        <h3>深沟球轴承</h3>
+                        <p>适用于高转速场景，结构简单，易于安装维护，广泛应用于电机、水泵等设备。</p>
+                        <a href="#" class="project-link">查看详情 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- 产品2 -->
+                <div class="project-card" data-category="roller">
+                    <img src="https://picsum.photos/600/400?random=21" alt="圆柱滚子轴承" class="project-img">
+                    <div class="project-info">
+                        <h3>圆柱滚子轴承</h3>
+                        <p>承载能力强，适用于径向负荷较大的场合，如机床主轴、减速器等。</p>
+                        <a href="#" class="project-link">查看详情 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- 产品3 -->
+                <div class="project-card" data-category="special">
+                    <img src="https://picsum.photos/600/400?random=22" alt="精密角接触轴承" class="project-img">
+                    <div class="project-info">
+                        <h3>精密角接触轴承</h3>
+                        <p>高精度设计，可同时承受径向和轴向负荷，适用于精密机床、医疗器械。</p>
+                        <a href="#" class="project-link">查看详情 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术优势 -->
+    <section id="advantages" class="skills">
+        <div class="container">
+            <h2 class="section-title">技术优势</h2>
+            <div class="skills-grid">
+                <!-- 优势1 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <h3>精密制造</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                    <p>加工精度可达P4级，振动噪声控制在Z3组以上</p>
+                </div>
+                <!-- 优势2 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-fire-alt"></i>
+                    </div>
+                    <h3>材料技术</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                    <p>采用高强度轴承钢，使用寿命提升30%以上</p>
+                </div>
+                <!-- 优势3 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>润滑技术</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                    <p>特殊润滑配方，适应-40℃至180℃工作环境</p>
+                </div>
+                <!-- 优势4 -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>密封性能</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                    <p>多重密封设计，防护等级达到IP69K</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我们</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系方式</h3>
+                    <p>无论您需要产品咨询、技术支持还是商务合作，我们的团队将竭诚为您服务。</p>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>邮箱：2133704045.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>电话：13024339222</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>地址：江苏省扬州市广陵区通运商贸城29幢110室</span>
+                        </li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-weixin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>发送咨询</h3>
+                    <form action="#" method="get">
+                        <div class="form-group">
+                            <label for="name">公司名称</label>
+                            <input type="text" id="name" name="name" placeholder="请输入公司名称">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">联系人</label>
+                            <input type="text" id="contact" name="contact" placeholder="请输入联系人姓名">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">联系电话</label>
+                            <input type="tel" id="phone" name="phone" placeholder="请输入联系电话">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">咨询内容</label>
+                            <textarea id="message" name="message" rows="5" placeholder="请输入您的咨询内容"></textarea>
+                        </div>
+                        <button type="submit" class="btn">提交咨询</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 E.TT轴承 版权所有</p>
+            <p>专注精密轴承制造，为工业发展提供核心动力</p>
+        </div>
+    </footer>
+
+    <!-- 引入JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
